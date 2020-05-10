@@ -51,7 +51,7 @@ module.exports = (env, options) => {
     context: path.resolve(__dirname, 'src'),
     mode: isProd ? 'production' : 'development',
     watch: !isProd,
-    entry: ['@babel/polyfill', './script.js', './sass/style.scss'],
+    entry: ['@babel/polyfill', './script.js', './sass/main.scss'],
     output: {
       filename: fileName('js', isProd),
       path: path.resolve(__dirname, 'dist'),

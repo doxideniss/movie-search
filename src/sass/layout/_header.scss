@@ -1,0 +1,12 @@
+.header {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $bg;
+  margin-bottom: 20px;
+}
+
+.header__logo {
+  font-size: 32px;
+}
